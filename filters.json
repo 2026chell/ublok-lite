@@ -1,6 +1,19 @@
 [
-  "[id^='ad']",
-  "[class*=' ad-']",
-  "iframe[src*='ads']",
-  ".sponsored"
+"[id^='ad']",
+"[id*='-ad-']",
+"[id*='ad']",
+"[class^='ad-']",
+"[class*=' ad-']",
+"[class*='-ad']",
+".sponsored",
+"[data-ad]",
+"[data-ads]",
+"iframe[src*='ads']",
+"iframe[src*='advert']",
+".advertisement",
+".adsbox",
+".banner-ad",
+".popunder",
+".popup-ad",
+".adslot"
 ]
