@@ -1,0 +1,6 @@
+[
+  "[id^='ad']",
+  "[class*=' ad-']",
+  "iframe[src*='ads']",
+  ".sponsored"
+]
