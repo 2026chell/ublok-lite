@@ -1,1 +1,35 @@
-<contents of uBoxLite-hide.css>
+/* uBoxLite-hide.css
+   Core hiding rules for uBox‑Lite
+   These selectors are applied globally via !important to hide common ad elements */
+
+/* ID-based ads */
+[id^="ad"],
+[id*="-ad-"],
+[id*="_ad_"],
+
+/* Class-based ads */
+[class^="ad-"],
+[class*=" ad-"],
+[class*="-ad"],
+.sponsored,
+
+/* Data attributes */
+[data-ad],
+[data-ads],  
+
+/* Iframes containing ads */
+iframe[src*="ads"],
+iframe[src*="advert"],
+
+/* Common ad containers */
+.advertisement,
+.adsbox,
+.banner-ad,
+.popunder,
+.popup-ad,
+
+/* Hide via visibility too */
+.ad, .ads, .adsense, .adslot {
+  display: none !important;
+  visibility: hidden !important;
+}
